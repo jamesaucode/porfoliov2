@@ -1,0 +1,50 @@
+.btn-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.btn-text {
+  font-size: 1em;
+  position: relative;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.content {
+  &__btn {
+    height: 3em;
+    width: 15em;
+    margin: 0 auto;
+    line-height: 2.2em;
+    position: relative;
+    margin-top: $medium-gutter;
+    font-family: "Open Sans";
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.1, 0.7, 0.6, 0.9);
+    border: 0.15em solid $color-grey-light-2;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background-color: $color-purple-twitch;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 500ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
+    }
+    &:hover {
+      color: white;
+      border: 0.15em solid black;
+      &::before {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

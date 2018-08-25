@@ -1,0 +1,57 @@
+.landing {
+  display: grid;
+  height: 80vh;
+  background-color: $color-green;
+}
+
+.heading {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+.text-box {
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  max-width: 100vw;
+  margin: auto;
+}
+
+.description {
+  font-size: 1em;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.skills {
+  margin-top: $medium-gutter;
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  position: relative;
+  height: 3em;
+  border-radius: 3px;
+  margin: 0 $medium-gutter;
+}
+
+.hover {
+  position: relative;
+  &__text {
+    visibility: hidden;
+    font-size: 0.75em;
+    width: 15em;
+    background-color: #595959;
+    padding: 0.15em;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -7.5em;
+  }
+  &:hover .hover__text {
+    visibility: visible;
+  }
+}

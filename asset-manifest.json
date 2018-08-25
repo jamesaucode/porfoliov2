@@ -1,11 +1,15 @@
 {
-  "main.css": "static/css/main.111b3e09.css",
-  "main.css.map": "static/css/main.111b3e09.css.map",
-  "main.js": "static/js/main.d231f9bb.js",
-  "main.js.map": "static/js/main.d231f9bb.js.map",
+  "main.css": "static/css/main.8ff968f5.css",
+  "main.css.map": "static/css/main.8ff968f5.css.map",
+  "main.js": "static/js/main.925360af.js",
+  "main.js.map": "static/js/main.925360af.js.map",
+  "static/media/adobexd.svg": "static/media/adobexd.0343f7ec.svg",
+  "static/media/api.svg": "static/media/api.8a3e25d8.svg",
   "static/media/css.svg": "static/media/css.8e766e95.svg",
+  "static/media/github.svg": "static/media/github.db0721b1.svg",
   "static/media/html.png": "static/media/html.8cce7261.png",
   "static/media/js.png": "static/media/js.25481014.png",
   "static/media/menu.svg": "static/media/menu.e26ee532.svg",
-  "static/media/pomodoro.png": "static/media/pomodoro.c26c9134.png"
+  "static/media/pomodoro.png": "static/media/pomodoro.c26c9134.png",
+  "static/media/responsive.svg": "static/media/responsive.65e86a55.svg"
 }
